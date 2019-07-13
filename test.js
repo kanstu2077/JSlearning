@@ -1,4 +1,5 @@
 function GetName(){
-	let var yourName = ('Введите ваше Имя','Имя');
-	alert ('Ваше имя состоит из ', yourName.lentgh, 'букв');
+	var yourName = prompt('Введите ваше Имя','Имя');
+	var x = yourName.length;
+	alert (x);
 }
